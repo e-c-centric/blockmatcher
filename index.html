@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block Match Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="scorecard">
+            <div id="score">Score: 0</div>
+            <div id="timer">Time: 60</div>
+            <button id="restart" style="display: none;">Restart</button>
+        </div>
+        <div id="grid"></div>
+    </div>
+    <div id="modal">
+        <div id="modal-content">
+            <h2>Time's Up!</h2>
+            <p>Your final score is <span id="final-score"></span></p>
+            <button id="modal-restart">Restart</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
